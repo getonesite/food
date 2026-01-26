@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu - One Foods</title>
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+<!-- Floating Order Button -->
+<a href="tel:+15551234567" class="floating-order-btn">Order Now</a>
+
+
+    <!-- Header -->
+    <header class="header" id="header">
+        <div class="container header-content">
+            <div class="logo">
+                <a href="index.html">One Foods</a>
+            </div>
+            
+            <nav class="nav-menu" id="navMenu">
+                <ul class="nav-list">
+                    <li><a href="index.html" class="nav-link">Home</a></li>
+                    <li><a href="about.html" class="nav-link">About</a></li>
+                    <li><a href="menu.html" class="nav-link active">Menu</a></li>
+                    <li><a href="gallery.html" class="nav-link">Gallery</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+            </nav>
+            
+           
+            <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-overlay"></div>
+       <img src="images/gourmet.jpg" alt="Gourmet food spread" class="hero-image">
+        <div class="container hero-content">
+            <h1 class="hero-title fade-in">Our Menu</h1>
+            <p class="hero-subtitle fade-in">Crafted with passion, served with pride</p>
+            <div class="hero-buttons fade-in">
+                <a href="#" class="cta-button-outline">Order Now</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Menu Categories -->
+    <section class="menu-section">
+        <div class="container">
+            <!-- Starters -->
+            <div class="menu-category fade-up">
+                <h2 class="category-title">Starters & Appetizers</h2>
+                <div class="menu-grid">
+                    <div class="menu-item">
+                        <div class="menu-item-header">
+                            <h3 class="menu-item-name">Crispy Calamari</h3>
+                            <span class="menu-item-price">Rs 1200</span>
+                        </div>
+                        <p class="menu-item-description">Lightly breaded squid rings served with spicy aioli and lemon wedges</p>
+                    </div>
+                    <div class="menu-item">
+                        <div class="menu-item-header">
+                            <h3 class="menu-item-name">Bruschetta Trio</h3>
+                            <span class="menu-item-price">Rs 1000</span>
+                        </div>
+                        <p class="menu-item-description">Toasted artisan bread topped with tomato-basil, mushroom, and olive tapenade</p>
+                    </div>
+                    <div class="menu-item">
+                        <div class="menu-item-header">
+                            <h3 class="menu-item-name">Chicken Wings</h3>
+                            <span class="menu-item-price">Rs 1300</span>
+                        </div>
+                        <p class="menu-item-description">Crispy chicken wings tossed in red sauce, served with celery and blue cheese</p>
+                    </div>
+                    <div class="menu-item">
+                        <div class="menu-item-header">
+                            <h3 class="menu-item-name">Spinach Artichoke Dip</h3>
+                            <span class="menu-item-price">Rs 1100</span>
+                        </div>
+                        <p class="menu-item-description">Creamy blend of spinach, artichokes, and cheese, served with tortilla chips</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Salads -->
+            <div class="menu-category fade-up">
+                <h2 class="category-title">Fresh Salads</h2>
+                <div class="menu-grid">
+                    <div class="menu-item">
+                        <div class="menu-item-header">
+                            <h3 class="menu-item-name">Caesar Salad</h3>
+                            <span class="menu-item-price">Rs 1100</span>
+                        </div>
+                        <p class="menu-item-description">Crisp romaine, parmesan, croutons, and classic Caesar dressing</p>
+                    </div>
+                    <div class="menu-item">
+                        <div class="menu-item-header">
+                            <h3 class="menu-item-name">Garden Fresh Salad</h3>
+                            <span class="menu-item-price">Rs 1200</span>
+                        </div>
+                        <p class="menu-item-description">Mixed greens, cherry tomatoes, avocado, nuts with house vinaigrette</p>
+                    </div>
+                    <div class="menu-item">
+                        <div class="menu-item-header">
+                            <h3 class="menu-item-name">Greek Salad</h3>
+                            <span class="menu-item-price">Rs 1399</span>
+                        </div>
+                        <p class="menu-item-description">Tomatoes, cucumbers, olives, feta cheese, red onion with lemon-herb dressing</p>
+                    </div>
+                    <div class="menu-item">
+                        <div class="menu-item-header">
+                            <h3 class="menu-item-name">Quinoa Power Bowl</h3>
+                            <span class="menu-item-price">Rs 1499</span>
+                        </div>
+                        <p class="menu-item-description">Quinoa, roasted vegetables, chickpeas, tahini drizzle</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Main Courses -->
+            <div class="menu-category fade-up">
+                <h2 class="category-title">Main Courses</h2>
+                <div class="menu-grid">
+                    <div class="menu-item">
+                        <div class="menu-item-header">
+                            <h3 class="menu-item-name">Classic Gourmet Burger</h3>
+                            <span class="menu-item-price">Rs 1600</span>
+                        </div>
+                        <p class="menu-item-description">Juicy beef patty, melted cheese, fresh vegetables, signature sauce on artisan bun</p>
+                    </div>
+                    <div class="menu-item">
+                        <div class="menu-item-header">
+                            <h3 class="menu-item-name">Grilled Ribeye Steak</h3>
+                            <span class="menu-item-price">Rs 2800</span>
+                        </div>
+                        <p class="menu-item-description">12oz ribeye with roasted vegetables and garlic mashed potatoes</p>
+                    </div>
+                    <div class="menu-item">
+                        <div class="menu-item-header">
+                            <h3 class="menu-item-name">Italian Pasta Perfection</h3>
+                            <span class="menu-item-price">Rs 1800</span>
+                        </div>
+                        <p class="menu-item-description">Fresh pasta with cherry tomatoes, basil, parmesan in rich tomato sauce</p>
+                    </div>
+                    <div class="menu-item">
+                        <div class="menu-item-header">
+                            <h3 class="menu-item-name">Grilled Salmon</h3>
+                            <span class="menu-item-price">Rs 2499</span>
+                        </div>
+                        <p class="menu-item-description">Atlantic salmon fillet with lemon-herb butter, asparagus, and wild rice</p>
+                    </div>
+                    <div class="menu-item">
+                        <div class="menu-item-header">
+                            <h3 class="menu-item-name">BBQ Baby Back Ribs</h3>
+                            <span class="menu-item-price">Rs 2299</span>
+                        </div>
+                        <p class="menu-item-description">Slow-cooked ribs with signature BBQ sauce, coleslaw, and fries</p>
+                    </div>
+                    <div class="menu-item">
+                        <div class="menu-item-header">
+                            <h3 class="menu-item-name">Chicken Parmesan</h3>
+                            <span class="menu-item-price">Rs 1999</span>
+                        </div>
+                        <p class="menu-item-description">Breaded chicken breast, marinara sauce, melted mozzarella over pasta</p>
+                    </div>
+                    <div class="menu-item">
+                        <div class="menu-item-header">
+                            <h3 class="menu-item-name">Vegetarian Lasagna</h3>
+                            <span class="menu-item-price">Rs 1799</span>
+                        </div>
+                        <p class="menu-item-description">Layers of pasta, roasted vegetables, ricotta, and marinara sauce</p>
+                    </div>
+                    <div class="menu-item">
+                        <div class="menu-item-header">
+                            <h3 class="menu-item-name">Fish & Chips</h3>
+                            <span class="menu-item-price">Rs 1699</span>
+                        </div>
+                        <p class="menu-item-description">Beer-battered cod with crispy fries, tartar sauce, and coleslaw</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Desserts -->
+            <div class="menu-category fade-up">
+                <h2 class="category-title">Sweet Endings</h2>
+                <div class="menu-grid">
+                    <div class="menu-item">
+                        <div class="menu-item-header">
+                            <h3 class="menu-item-name">Chocolate Lava Cake</h3>
+                            <span class="menu-item-price">Rs 899</span>
+                        </div>
+                        <p class="menu-item-description">Warm chocolate cake with molten center, vanilla ice cream, fresh berries</p>
+                    </div>
+                    <div class="menu-item">
+                        <div class="menu-item-header">
+                            <h3 class="menu-item-name">New York Cheesecake</h3>
+                            <span class="menu-item-price">Rs 799</span>
+                        </div>
+                        <p class="menu-item-description">Classic creamy cheesecake with graham cracker crust and berry compote</p>
+                    </div>
+                    <div class="menu-item">
+                        <div class="menu-item-header">
+                            <h3 class="menu-item-name">Tiramisu</h3>
+                            <span class="menu-item-price">Rs 899</span>
+                        </div>
+                        <p class="menu-item-description">Italian classic with espresso-soaked ladyfingers and mascarpone cream</p>
+                    </div>
+                    <div class="menu-item">
+                        <div class="menu-item-header">
+                            <h3 class="menu-item-name">Crème Brûlée</h3>
+                            <span class="menu-item-price">Rs 799</span>
+                        </div>
+                        <p class="menu-item-description">Silky vanilla custard with caramelized sugar crust</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Beverages -->
+            <div class="menu-category fade-up">
+                <h2 class="category-title">Beverages</h2>
+                <div class="menu-grid">
+                    <div class="menu-item">
+                        <div class="menu-item-header">
+                            <h3 class="menu-item-name">Craft Cocktails</h3>
+                            <span class="menu-item-price">Rs 1299</span>
+                        </div>
+                        <p class="menu-item-description">Ask your server about our rotating selection of handcrafted cocktails</p>
+                    </div>
+                    <div class="menu-item">
+                        <div class="menu-item-header">
+                            <h3 class="menu-item-name">Wine Selection</h3>
+                            <span class="menu-item-price">Rs 999+</span>
+                        </div>
+                        <p class="menu-item-description">Curated wine list featuring reds, whites, and sparkling options</p>
+                    </div>
+                    <div class="menu-item">
+                        <div class="menu-item-header">
+                            <h3 class="menu-item-name">Fresh Juices</h3>
+                            <span class="menu-item-price">Rs 599</span>
+                        </div>
+                        <p class="menu-item-description">Orange, apple, cranberry, or grapefruit juice</p>
+                    </div>
+                    <div class="menu-item">
+                        <div class="menu-item-header">
+                            <h3 class="menu-item-name">Specialty Coffee</h3>
+                            <span class="menu-item-price">Rs 499</span>
+                        </div>
+                        <p class="menu-item-description">Espresso, cappuccino, latte, or Americano</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="container">
+            <div class="cta-content fade-in">
+                <h2>Ready to Order?</h2>
+                <p>Call us or visit our restaurant today</p>
+                <div class="cta-buttons">
+                    <a href="tel:+15551234567" class="cta-button">Call to Order</a>
+                    <a href="index.html#contact" class="cta-button-outline">Visit Us</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!-- Footer -->
+<footer class="site-footer">
+    <div class="footer-container">
+
+        <!-- Contact Information -->
+        <div class="footer-column">
+            <h3 class="footer-title"><u>Contact Information</u></h3>
+            <ul class="footer-contact">
+                <li>📍 <a href="https://maps.app.goo.gl/vtVgi29cyoYuF68C7">your-location</a></li>
+                <li>📞 +91 9876543210</li>
+                <li>✉️ <a href="mailto:getonesite@gmail.com">getonesite@gmail.com</a></li>
+                <li>⏰ Mon - Sat: 8:00 AM - 8:00 PM</li>
+            </ul>
+        </div>
+
+        <!-- Quick Links -->
+        <div class="footer-column">
+            <h3 class="footer-title"><u>Quick Links</u></h3>
+            <ul class="footer-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html" target="_blank">About</a></li>
+                <li><a href="menu.html" target="_blank">Menu</a></li>
+                <li><a href="gallery.html" target="_blank">Gallery</a></li>
+            </ul>
+        </div>
+
+        <!-- Follow Us -->
+        <div class="footer-column">
+            <h3 class="footer-title"><u>Follow Us</u></h3>
+            <div class="footer-social">
+    <a href="#" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+    <a href="#" target="_blank" aria-label="Facebook Page"><i class="fa-brands fa-facebook"></i></a>
+    <a href="#" target="_blank" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+    <a href="#" target="_blank" aria-label="X (Twitter)"><i class="fa-brands fa-x-twitter"></i></a>
+    <a href="#" target="_blank" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="footer-bottom">
+        <p>© 2026 <a href="https://onesite.co.in/" target="_blank">ONESITE.CO.IN.</a> All Rights Reserved.</p>
+    </div>
+</footer>
+    <script type="module" src="./script.js"></script>
+</body>
+
+</html>

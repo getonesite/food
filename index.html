@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>One Foods - Modern Restaurant Experience</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+<!-- Floating Order Button -->
+<a href="tel:+15551234567" class="floating-order-btn">Order Now</a>
+
+
+    <!-- Header -->
+    <header class="header" id="header">
+        <div class="container header-content">
+            <div class="logo">
+                <a href="index.html">One Foods</a>
+            </div>
+            
+            <nav class="nav-menu" id="navMenu">
+                <ul class="nav-list">
+                    <li><a href="index.html" class="nav-link active">Home</a></li>
+                    <li><a href="about.html" class="nav-link">About</a></li>
+                    <li><a href="menu.html" class="nav-link">Menu</a></li>
+                    <li><a href="gallery.html" class="nav-link">Gallery</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+            </nav>
+            
+           
+            <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-overlay"></div>
+       <img src="images/gourmet.jpg" alt="Gourmet food spread" class="hero-image">
+        <div class="container hero-content">
+            <h1 class="hero-title fade-in">Experience Food<br>Like Never Before</h1>
+            <p class="hero-subtitle fade-in">Fresh ingredients, bold flavors, unforgettable moments</p>
+            <div class="hero-buttons fade-in">
+                <a href="menu.html" class="cta-button">View Menu</a>
+                <a href="gallery.html" class="cta-button-outline">See Gallery</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Dishes Section -->
+    <section class="featured-section">
+        <div class="container">
+            <h2 class="section-title">Our Signature Dishes</h2>
+            <p class="section-subtitle">Crafted with passion, served with pride</p>
+            
+            <div class="featured-grid">
+                <div class="featured-card fade-up">
+                    <div class="card-image-wrapper">
+                        <img src="https://mgx-backend-cdn.metadl.com/generate/images/930206/2026-01-25/7bd4c919-4dfd-4639-82fd-b9e9362e3c35.png" alt="Gourmet Burger" class="card-image">
+                    </div>
+                    <div class="card-content">
+                        <h3 class="card-title">Classic Gourmet Burger</h3>
+                        <p class="card-description">Juicy beef patty with melted cheese, fresh vegetables, and our signature sauce on an artisan bun</p>
+                        <span class="card-price">Rs 1600</span>
+                    </div>
+                </div>
+
+                <div class="featured-card fade-up">
+                    <div class="card-image-wrapper">
+                        <img src="https://mgx-backend-cdn.metadl.com/generate/images/930206/2026-01-25/d7ec126b-e6f4-4deb-894b-45d62dfb7e3f.png" alt="Pasta Dish" class="card-image">
+                    </div>
+                    <div class="card-content">
+                        <h3 class="card-title">Italian Pasta Perfection</h3>
+                        <p class="card-description">Fresh pasta with cherry tomatoes, basil, and parmesan in a rich tomato sauce</p>
+                        <span class="card-price">Rs 1800</span>
+                    </div>
+                </div>
+
+                <div class="featured-card fade-up">
+                    <div class="card-image-wrapper">
+                        <img src="https://mgx-backend-cdn.metadl.com/generate/images/930206/2026-01-25/9795cc50-b2de-4b3f-a7b5-54714ea26cbe.png" alt="Fresh Salad" class="card-image">
+                    </div>
+                    <div class="card-content">
+                        <h3 class="card-title">Garden Fresh Salad</h3>
+                        <p class="card-description">Vibrant mixed greens, avocado, cherry tomatoes, and nuts with house vinaigrette</p>
+                        <span class="card-price">Rs 1200</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Brand Intro Section -->
+    <section class="intro-section">
+        <div class="container">
+            <div class="intro-content">
+                <div class="intro-text fade-in">
+                    <h2 class="section-title">Welcome to One Foods</h2>
+                    <p class="intro-paragraph">At One Foods, we believe that great food brings people together. Since our founding, we've been committed to serving exceptional dishes made from the finest ingredients, prepared with care and creativity.</p>
+                    <p class="intro-paragraph">Our culinary team combines traditional techniques with modern innovation to create unforgettable dining experiences. Every dish tells a story, and every meal is a celebration.</p>
+                    <a href="about.html" class="cta-button" style="text-align: center;">Learn More About Us</a>
+                </div>
+                <div class="intro-image fade-in">
+                    <img src="https://mgx-backend-cdn.metadl.com/generate/images/930206/2026-01-25/46cbf594-0b45-4aa2-9228-7057e27fa537.png" alt="Chef cooking" class="rounded-image">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Preview Section -->
+    <section class="gallery-section" id="gallery">
+        <div class="container">
+            <h2 class="section-title">Food Gallery</h2>
+            <p class="section-subtitle">A visual feast of our culinary creations</p>
+            
+            <div class="gallery-grid">
+                <div class="gallery-item fade-up" data-index="0">
+                    <img src="https://mgx-backend-cdn.metadl.com/generate/images/930206/2026-01-25/e8559130-69ca-41f2-90aa-9e12936c5d71.png" alt="Grilled steak with vegetables" loading="lazy">
+                    <div class="gallery-overlay">
+                        <span class="gallery-icon">+</span>
+                    </div>
+                </div>
+                <div class="gallery-item fade-up" data-index="1">
+                    <img src="https://mgx-backend-cdn.metadl.com/generate/images/930206/2026-01-25/bdfd354b-be1b-49fc-986e-138e9219721b.png" alt="Fresh sushi platter" loading="lazy">
+                    <div class="gallery-overlay">
+                        <span class="gallery-icon">+</span>
+                    </div>
+                </div>
+                <div class="gallery-item fade-up" data-index="2">
+                    <img src="https://mgx-backend-cdn.metadl.com/generate/images/930206/2026-01-25/e75b13f6-0027-467e-8d8c-d231c149c437.png" alt="Artisan pizza" loading="lazy">
+                    <div class="gallery-overlay">
+                        <span class="gallery-icon">+</span>
+                    </div>
+                </div>
+                <div class="gallery-item fade-up" data-index="3">
+                    <img src="https://mgx-backend-cdn.metadl.com/generate/images/930206/2026-01-25/8c140f86-f0dd-47fc-aead-252900ee3f06.png" alt="Gourmet dessert" loading="lazy">
+                    <div class="gallery-overlay">
+                        <span class="gallery-icon">+</span>
+                    </div>
+                </div>
+                <div class="gallery-item fade-up" data-index="4">
+                    <img src="https://mgx-backend-cdn.metadl.com/generate/images/930206/2026-01-25/01df1fbb-84b5-4c25-a5b5-da38d7b2d059.png" alt="Breakfast spread" loading="lazy">
+                    <div class="gallery-overlay">
+                        <span class="gallery-icon">+</span>
+                    </div>
+                </div>
+                <div class="gallery-item fade-up" data-index="5">
+                    <img src="https://mgx-backend-cdn.metadl.com/generate/images/930206/2026-01-25/804c75e4-db4d-4788-bdb9-39422f14fe66.png" alt="Grilled salmon" loading="lazy">
+                    <div class="gallery-overlay">
+                        <span class="gallery-icon">+</span>
+                    </div>
+                </div>
+                <div class="gallery-item fade-up" data-index="6">
+                    <img src="https://mgx-backend-cdn.metadl.com/generate/images/930206/2026-01-25/552a9770-b023-408a-913d-520b42273e79.png" alt="Colorful tacos" loading="lazy">
+                    <div class="gallery-overlay">
+                        <span class="gallery-icon">+</span>
+                    </div>
+                </div>
+                <div class="gallery-item fade-up" data-index="7">
+                    <img src="https://mgx-backend-cdn.metadl.com/generate/images/930206/2026-01-25/a2ba3fac-76a2-4852-b842-1f660ac1b668.png" alt="Ramen noodle bowl" loading="lazy">
+                    <div class="gallery-overlay">
+                        <span class="gallery-icon">+</span>
+                    </div>
+                </div>
+                <div class="gallery-item fade-up" data-index="8">
+                    <img src="https://mgx-backend-cdn.metadl.com/generate/images/930206/2026-01-25/35063816-20b2-4f2d-b940-e5aad77c9213.png" alt="BBQ ribs" loading="lazy">
+                    <div class="gallery-overlay">
+                        <span class="gallery-icon">+</span>
+                    </div>
+                </div>
+                <div class="gallery-item fade-up" data-index="9">
+                    <img src="https://mgx-backend-cdn.metadl.com/generate/images/930206/2026-01-25/1a42ca69-5d04-4d02-ab86-ca1f1cbfb0a9.png" alt="Vegetarian bowl" loading="lazy">
+                    <div class="gallery-overlay">
+                        <span class="gallery-icon">+</span>
+                    </div>
+                </div>
+                <div class="gallery-item fade-up" data-index="10">
+                    <img src="https://mgx-backend-cdn.metadl.com/generate/images/930206/2026-01-25/da68671a-17e8-4103-93ac-66546b960910.png" alt="Craft cocktails" loading="lazy">
+                    <div class="gallery-overlay">
+                        <span class="gallery-icon">+</span>
+                    </div>
+                </div>
+                <div class="gallery-item fade-up" data-index="11">
+                    <img src="https://mgx-backend-cdn.metadl.com/generate/images/930206/2026-01-25/2a9b1af6-bd1c-45a2-8988-f01143a2cf48.png" alt="Charcuterie board" loading="lazy">
+                    <div class="gallery-overlay">
+                        <span class="gallery-icon">+</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div style="text-align: center; margin-top: 40px;">
+                <a href="gallery.html" class="cta-button">View Full Gallery</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact-section" id="contact">
+        <div class="container">
+            <h2 class="section-title">Visit Us Today</h2>
+            <div class="contact-grid">
+                <div class="contact-card fade-up">
+                    <h3>Location</h3>
+                    <p>123 Food Street</p>
+                    <p>New York, NY 10001</p>
+                    <a href="https://maps.google.com" target="_blank" class="contact-link">Get Directions →</a>
+                </div>
+                <div class="contact-card fade-up">
+                    <h3>Hours</h3>
+                    <p>Monday - Friday: 11:00 AM - 10:00 PM</p>
+                    <p>Saturday - Sunday: 10:00 AM - 11:00 PM</p>
+                </div>
+                <div class="contact-card fade-up">
+                    <h3>Contact</h3>
+                    <p>Phone: <a href="tel:+15551234567">(555) 123-4567</a></p>
+                    <p>Email: <a href="/cdn-cgi/l/email-protection#acc5c2cac3ecc3c2c9cac3c3c8df82cfc3c1"><span class="__cf_email__" data-cfemail="3851565e577857565d5e57575c4b165b5755">[email&#160;protected]</span></a></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!-- Footer -->
+<footer class="site-footer">
+    <div class="footer-container">
+
+        <!-- Contact Information -->
+        <div class="footer-column">
+            <h3 class="footer-title"><u>Contact Information</u></h3>
+            <ul class="footer-contact">
+                <li>📍 <a href="https://maps.app.goo.gl/vtVgi29cyoYuF68C7">your-location</a></li>
+                <li>📞 +91 9876543210</li>
+                <li>✉️ <a href="mailto:getonesite@gmail.com">getonesite@gmail.com</a></li>
+                <li>⏰ Mon - Sat: 8:00 AM - 8:00 PM</li>
+            </ul>
+        </div>
+
+        <!-- Quick Links -->
+        <div class="footer-column">
+            <h3 class="footer-title"><u>Quick Links</u></h3>
+            <ul class="footer-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html" target="_blank">About</a></li>
+                <li><a href="menu.html" target="_blank">Menu</a></li>
+                <li><a href="gallery.html" target="_blank">Gallery</a></li>
+            </ul>
+        </div>
+
+        <!-- Follow Us -->
+        <div class="footer-column">
+            <h3 class="footer-title"><u>Follow Us</u></h3>
+            <div class="footer-social">
+    <a href="#" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+    <a href="#" target="_blank" aria-label="Facebook Page"><i class="fa-brands fa-facebook"></i></a>
+    <a href="#" target="_blank" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+    <a href="#" target="_blank" aria-label="X (Twitter)"><i class="fa-brands fa-x-twitter"></i></a>
+    <a href="#" target="_blank" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="footer-bottom">
+        <p>© 2026 <a href="https://onesite.co.in/" target="_blank">ONESITE.CO.IN.</a> All Rights Reserved.</p>
+    </div>
+</footer>
+
+    <!-- Lightbox Modal -->
+    <div class="lightbox" id="lightbox">
+        <button class="lightbox-close" id="lightboxClose" aria-label="Close lightbox">&times;</button>
+        <button class="lightbox-prev" id="lightboxPrev" aria-label="Previous image">‹</button>
+        <button class="lightbox-next" id="lightboxNext" aria-label="Next image">›</button>
+        <img src="" alt="" class="lightbox-image" id="lightboxImage">
+    </div>
+
+    <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script type="module" src="./script.js"></script>
+</body>
+
+</html>
